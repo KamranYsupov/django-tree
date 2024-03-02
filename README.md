@@ -1,3 +1,33 @@
+<h3>Настройка venv</h3>
+
+<h4>Windows</h4>
+
+```commandline
+python -m venv <virtualenv name>
+```
+
+<h4>Ubuntu</h4>
+
+```commandline
+python3 -m venv <virtualenv name>
+```
+
+<h4>Windows</h4>
+
+```commandline
+./<virtualenv name>/Scripts/activate
+```
+
+<h4>Ubuntu</h4>
+
+```commandline
+source /<virtualenv name>/bin/activate
+```
+
+```commandline
+pip install -r requirements.txt
+```
+
 <h3>PostgreSQL</h4>
 
 <h5>settings.py</h5>
