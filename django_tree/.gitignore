@@ -1,0 +1,6 @@
+/.idea
+
+
+/db.sqlite3
+
+/django_tree/tree_venv
