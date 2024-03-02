@@ -16,6 +16,7 @@ DATABASES = {
 ```
 
 <h5 style='color:#5279c7'>Dockerfile</h5>
+
 ```Dockerfile
 FROM python:3.10
 
@@ -29,6 +30,7 @@ RUN pip install -r /temp/requirements.txt
 ```
 
 <h5 style='color:#5279c7'>docker-compose.yml</h5>
+
 ```yaml
 services:
   django_tree:
@@ -58,6 +60,7 @@ services:
 ```
 
 <h5>Команды:</h5>
+
 ```commandline
 docker-compose build
 ```
@@ -92,6 +95,7 @@ DATABASES = {
 ```
 
 <h5>Команды:</h5>
+
 ```commandline
 python manage.py makemigrations
 ```
