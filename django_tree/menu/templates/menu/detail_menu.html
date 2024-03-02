@@ -1,8 +1,11 @@
 <ul>
-    {% for item in menu %}
-        {% if item.url %}<li><a href='{{ item.url }}'>{{ item }}</li>
-        {% elif item.name %}<li><a href='{{ item.name }}'>{{ item }}</li>
-        {% else %}{% include 'menu/detail_menu.html' with menu=item %}
+    {% for point in menu %}
+        {% if point.url %}
+                  <li><a href='{{ point.url }}'>{{ point }}</li>
+        {% elif point.name %}
+                  <li><a href='{{ point.name }}'>{{ point }}</li>
+        {% else %}
+                  {% include 'menu/detail_menu.html' with menu=point %}
         {% endif %}
     {% endfor %}
 </ul>
