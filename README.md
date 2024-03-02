@@ -30,7 +30,7 @@ source /<virtualenv name>/bin/activate
 pip install -r requirements.txt
 ```
 
-<h3>PostgreSQL</h4>
+<h3>Запуск на PostgreSQL</h3>
 
 <h5>settings.py</h5>
 
@@ -112,7 +112,7 @@ docker-compose run --rm  django_tree sh -c "python manage.py createsuperuser"
 docker-compose up
 ```
 
-<h3>SQLite3</h4>
+<h3>Запуск на SQLite3</h4>
 
 <h5>settings.py</h5>
 
